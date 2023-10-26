@@ -40,7 +40,12 @@ transactionRouter.post("/", (req, res, next) => {
   try {
     const transactionBody = req.body;
     if (transactionBody) {
-      transactionArray.push(transactionBody);
+        const highestId = Math.max(...transactionArray.map(item => item.id));
+        const newItemId = highestId + 1;
+        transactionBody.id = newItemId;
+  
+        transactionArray.push(transactionBody);
+      console.log("New Item Created:", transactionBody);
       res.status(201).send(transactionBody);
     } else {
       res.status(404).send({ message: "Transaction cannot be created" });

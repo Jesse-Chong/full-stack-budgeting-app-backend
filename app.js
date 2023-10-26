@@ -3,7 +3,7 @@ const app = express();
 const cors = require("cors");
 const transactionsController = require("./controllers/transactionsController");
 
-app.use(cors({ origin: "http://localhost:2222" }));
+app.use(cors({ origin: "http://localhost:3000" }));
 
 console.log("app test");
 
