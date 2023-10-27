@@ -11,70 +11,70 @@ module.exports = [
     id: 1,
     item_name: "income",
     amount: 3000,
-    date: "10-01-2023",
+    date: "2023-10-01",
     from: "employer"
   },
   {
     id: 2,
     item_name: "taxes",
     amount: -300,
-    date: "10-05-2023",
+    date: "2023-10-05",
     from: "user"
   },
   {
     id: 3,
     item_name: "retirement",
     amount: -150,
-    date: "10-05-2023",
+    date: "2023-10-05",
     from: "user"
   },
   {
     id: 4,
     item_name: "savings",
     amount: -150,
-    date: "10-10-2023",
+    date: "2023-10-10",
     from: "user"
   },
   {
     id: 5,
     item_name: "credit-card",
     amount: -200,
-    date: "10-15-2023",
+    date: "2023-10-15",
     from: "user"
   },
   {
     id: 6,
     item_name: "coffee",
     amount: -5,
-    date: "10-15-2023",
+    date: "2023-10-15",
     from: "starbucks"
   },
   {
     id: 7,
     item_name: "internet",
     amount: -80,
-    date: "10-15-2023",
+    date: "2023-10-15",
     from: "verizon"
   },
   {
     id: 8,
     item_name: "groceries",
     amount: 75,
-    date: "10-18-2023",
+    date: "2023-10-18",
     from: "key-food"
   },
   {
     id: 9,
     item_name: "utility-bill",
     amount: -150,
-    date: "10-18-2023",
+    date: "2023-10-18",
     from: "employer"
   },
   {
     id: 10,
     item_name: "car-insurance",
     amount: -150,
-    date: "10-18-2023",
+    date: "2023-10-18",
     from: "employer"
   },
 ];
